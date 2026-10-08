@@ -341,7 +341,7 @@ host set to the server address:
 conda activate lerobot
 python data_collection/lerobot_collection.py \
   --host 192.168.50.13 --port 5555 \
-  --local-dir ./lerobot_data
+  --local-dir ~/yys/real-exp/dataset/
 ```
 
 You can have the server supervisor start it as well:
